@@ -79,7 +79,7 @@
   // true: Allow ES.next (ES6) syntax (ex: `const`)
   "moz": false,
   // true: Allow Mozilla specific syntax (extends and overrides esnext features)
-  // (ex: `for each`, multiple try/catch, function expression…)
+  // (ex: `for each`, multiple try/catch, function expressionâ€¦)
   "evil": false,
   // true: Tolerate use of `eval` and `new Function()`
   "expr": false,

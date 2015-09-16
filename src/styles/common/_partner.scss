@@ -1,86 +1,1 @@
-.partner {
-  padding-top: 86px;
-  padding-bottom: 19px;
-  &__partners {
-    padding-top: 15px;
-    text-align: center;
-    width: 25%;
-    display: block;
-    float: left;
-    vertical-align: top;
-    &__photo {
-      position: relative;
-      &__logo-plane {
-        border-radius: 50%;
-        border: 4px solid #ffffff;
-        background-color: #4e73db;
-        width: 33px;
-        height: 32px;
-        line-height: 40px;
-        text-align: center;
-        position: absolute;
-        bottom: -2px;
-        right: 55px;
-      }
-      &__logo-bottle {
-        border-radius: 50%;
-        border: 4px solid #ffffff;
-        background-color: #ffa507;
-        width: 33px;
-        height: 32px;
-        line-height: 40px;
-        text-align: center;
-        position: absolute;
-        bottom: -2px;
-        right: 55px;
-      }
-      &__logo-cup {
-        border-radius: 50%;
-        border: 4px solid #ffffff;
-        background-color: #1cd7ad;
-        width: 32px;
-        height: 32px;
-        line-height: 40px;
-        text-align: center;
-        position: absolute;
-        bottom: -2px;
-        right: 55px;
-      }
-      &__logo-tv {
-        border-radius: 50%;
-        border: 4px solid #ffffff;
-        background-color: #ff4e50;
-        width: 32px;
-        height: 32px;
-        line-height: 40px;
-        text-align: center;
-        position: absolute;
-        bottom: -2px;
-        right: 55px;
-      }
-    }
-    &__name {
-      width: 215px;
-      padding-top: 17px;
-      font-family: Montserrat-regular, sans-serif;
-      color: #333333;
-      font-size: 14px;
-      font-weight: 700;
-      text-align: center;
-      transform: scaleX(1.0011);
-    }
-    &__information {
-      width: 215px;
-      line-height: 17px;
-      padding-top: 14px;
-      font-family: Roboto-Light, sans-serif;
-      color: #666666;
-      font-size: 14px;
-      font-weight: 300;
-      text-align: center;
-    }
-  }
-  &__partners:last-child {
-    padding-right: 0;
-  }
-}
+.partner {  padding-top: 86px;  padding-bottom: 19px;  &__partners {    padding-top: 15px;    text-align: center;    width: 25%;    display: block;    float: left;    vertical-align: top;    &__photo {      position: relative;      &__logo-plane {        border-radius: 50%;        border: 4px solid #ffffff;        background-color: #4e73db;        width: 33px;        height: 32px;        line-height: 40px;        text-align: center;        position: absolute;        bottom: -2px;        right: 55px;      }      &__logo-bottle {        border-radius: 50%;        border: 4px solid #ffffff;        background-color: #ffa507;        width: 33px;        height: 32px;        line-height: 40px;        text-align: center;        position: absolute;        bottom: -2px;        right: 55px;      }      &__logo-cup {        border-radius: 50%;        border: 4px solid #ffffff;        background-color: #1cd7ad;        width: 32px;        height: 32px;        line-height: 40px;        text-align: center;        position: absolute;        bottom: -2px;        right: 55px;      }      &__logo-tv {        border-radius: 50%;        border: 4px solid #ffffff;        background-color: #ff4e50;        width: 32px;        height: 32px;        line-height: 40px;        text-align: center;        position: absolute;        bottom: -2px;        right: 55px;      }    }    &__name {      width: 215px;      padding-top: 17px;      font-family: Montserrat-regular, sans-serif;      color: #333333;      font-size: 14px;      font-weight: 700;      text-align: center;      transform: scaleX(1.0011);    }    &__information {      width: 215px;      line-height: 17px;      padding-top: 14px;      font-family: Roboto-Light, sans-serif;      color: #666666;      font-size: 14px;      font-weight: 300;      text-align: center;    }  }  &__partners:last-child {    padding-right: 0;  }}
