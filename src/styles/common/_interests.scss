@@ -1,0 +1,53 @@
+.interests {
+  font-family: Roboto-light, sans-serif;
+  color: #333333;
+  font-size: 18px; /* Приближение из-за подстановки шрифтов */
+  font-weight: 300;
+  text-align: center;
+  margin: 34px auto 40px;
+  &__input {
+    outline: none;
+    margin-left: 28.5%;
+    border-radius: 4px;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    box-shadow: 0 1px 0 0 #eeeeee;
+    width: 240px;
+    height: 40px;
+    font-family: Roboto-light, sans-serif;
+    color: #999999;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+    padding-left: 15px;
+  }
+  &__find {
+    margin-bottom: 100px;
+    background-color: #ff4e50;
+    width: 160px;
+    height: 40px;
+    font-family: Montserrat-regular, sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    border-radius: 40px;
+    margin-left: 6px;
+  }
+  &__find:hover {
+    margin-bottom: 100px;
+    background-color: transparent;
+    color: #ff4e50;
+    border: 2px solid #ff4e50;
+    border-radius: 40px;
+    width: 160px;
+    height: 40px;
+    font-family: Montserrat-regular, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 6px;
+  }
+}

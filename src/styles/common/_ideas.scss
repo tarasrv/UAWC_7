@@ -1,0 +1,44 @@
+.activity-ideas {
+  min-height: 980px;
+  display: block;
+}
+
+.ideas {
+  margin-top: 26px;
+  min-height: 980px;
+  &__kinds-big {
+    float: left;
+    margin: 10px;
+    position: relative;
+    &__text {
+      width: 620px;
+      text-align: center;
+      height: 310px;
+      vertical-align: middle;
+      position: absolute;
+      top: 45%;
+      font-family: Montserrat-Regular, sans-serif;
+      color: #ffffff;
+      font-size: 22px;
+      font-weight: 700;
+    }
+  }
+  &__kinds {
+    float: left;
+    margin: 10px;
+    position: relative;
+    &__text {
+      width: 300px;
+      height: 310px;
+      text-align: center;
+      vertical-align: middle;
+      position: absolute;
+      top: 45%;
+      font-family: Montserrat-Regular, sans-serif;
+      color: #ffffff;
+      font-size: 22px;
+      font-weight: 700;
+    }
+  }
+}
+

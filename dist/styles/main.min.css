@@ -1,0 +1,610 @@
+@charset "UTF-8";
+.authorisation, .authorisation button, .logo {
+    font-family: Montserrat-Regular;
+    font-weight: 700
+}
+
+.content, .header, .wrapper {
+    margin-left: auto;
+    margin-right: auto
+}
+
+.authorisation, .footer__logo, h3 {
+    text-align: center
+}
+
+.partner__partners:last-child, .steps__item:last-child {
+    padding-right: 0
+}
+
+.header {
+    position: relative;
+    background-image: url(../img/promo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px
+}
+
+.logo {
+    letter-spacing: 1px;
+    padding-top: 3pc;
+    padding-left: 9px;
+    color: #fff;
+    font-size: 20px
+}
+
+.authorisation {
+    color: #fff;
+    font-size: 14px;
+    display: inline-block;
+    position: absolute;
+    top: 38px;
+    right: 11px
+}
+
+.steps__item, .steps__item__picture, .wrapper {
+    position: relative
+}
+
+.authorisation__sign-up {
+    border: 2px solid #fff;
+    background-color: transparent;
+    border-radius: 36px;
+    height: 36px;
+    width: 90px;
+    float: right
+}
+
+.authorisation__sign-up:hover {
+    border: none;
+    background-color: #ff4e50;
+    border-radius: 36px;
+    height: 36px;
+    width: 90px;
+    float: right
+}
+
+.authorisation__log-in {
+    background-color: transparent;
+    border-radius: 36px;
+    height: 36px;
+    width: 90px;
+    float: right;
+    border: none
+}
+
+.authorisation__log-in:hover {
+    border: none;
+    color: #ff4e50;
+    float: right
+}
+
+.authorisation button {
+    color: #fff;
+    font-size: 14px
+}
+
+a {
+    text-decoration: none;
+    color: #fff
+}
+
+button {
+    outline: 0
+}
+
+.content {
+    max-width: 15in
+}
+
+.wrapper {
+    max-width: 10in
+}
+
+h3 {
+    font-family: Montserrat-Bold;
+    color: #333;
+    font-size: 22px;
+    font-weight: 700
+}
+
+.footer__logo, .footer__partners {
+    font-family: Montserrat-regular;
+    font-weight: 700;
+    vertical-align: top
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(../vendors/fonts/Montserrat-Bold.ttf)
+}
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(../vendors/fonts/Montserrat-Regular.ttf)
+}
+
+@font-face {
+    font-family: Roboto-Black;
+    src: url(../vendors/fonts/Roboto-Black.ttf)
+}
+
+@font-face {
+    font-family: Roboto-BlackItalic;
+    src: url(../vendors/fonts/Roboto-BlackItalic.ttf)
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(../vendors/fonts/Roboto-Bold.ttf)
+}
+
+@font-face {
+    font-family: Roboto-BoldItalic;
+    src: url(../vendors/fonts/Roboto-BoldItalic.ttf)
+}
+
+@font-face {
+    font-family: Roboto-Italic;
+    src: url(../vendors/fonts/Roboto-Italic.ttf)
+}
+
+@font-face {
+    font-family: Roboto-Light;
+    src: url(../vendors/fonts/Roboto-Light.ttf)
+}
+
+@font-face {
+    font-family: Roboto-LightItalic;
+    src: url(../vendors/fonts/Roboto-LightItalic.ttf)
+}
+
+@font-face {
+    font-family: Roboto-Medium;
+    src: url(../vendors/fonts/Roboto-Medium.ttf)
+}
+
+@font-face {
+    font-family: Roboto-MediumItalic;
+    src: url(../vendors/fonts/Roboto-MediumItalic.ttf)
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../vendors/fonts/Roboto-Regular.ttf)
+}
+
+@font-face {
+    font-family: Roboto-Thin;
+    src: url(../vendors/fonts/Roboto-Thin.ttf)
+}
+
+@font-face {
+    font-family: Roboto-ThinItalic;
+    src: url(../vendors/fonts/Roboto-ThinItalic.ttf)
+}
+
+.footer {
+    border-top: 4px solid #ff4e50;
+    padding-top: 40px
+}
+
+.footer__logo {
+    margin-left: 9px;
+    letter-spacing: .8px;
+    display: inline;
+    color: #ff4e50;
+    font-size: 1pc
+}
+
+.footer__designed, .footer__nav, .footer__partners, .steps__block {
+    display: inline-block
+}
+
+.footer__partners {
+    margin-left: 87px;
+    color: #333;
+    font-size: 14px;
+    text-align: left
+}
+
+.footer__points, .footer__points__href, .footer__points__href:hover {
+    font-family: Roboto-light;
+    font-weight: 300;
+    font-size: 14px
+}
+
+.footer__nav {
+    margin-left: 94px
+}
+
+.footer__points {
+    height: 25px
+}
+
+.footer__points__href {
+    color: #666
+}
+
+.footer__points__href:hover {
+    color: #666;
+    text-decoration: underline
+}
+
+.footer__designed, .footer__points__title {
+    font-family: Montserrat-regular;
+    font-weight: 700
+}
+
+.footer__points__title {
+    color: #333;
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 8px
+}
+
+.footer__points__title__href {
+    color: #333
+}
+
+.footer__designed {
+    letter-spacing: 1px;
+    vertical-align: top;
+    color: #ccc;
+    font-size: 10px;
+    text-align: right;
+    float: right
+}
+
+.footer__designed__areto-logo {
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px
+}
+
+.header-promo__share {
+    font-family: Montserrat-Regular;
+    color: #fff;
+    font-size: 52px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 147px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 61px;
+    letter-spacing: -.5px
+}
+
+.header-promo__find {
+    font-family: Roboto-Light;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 29px
+}
+
+.header-promo__find-button, .header-promo__find-button:hover {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 37px;
+    width: 225px;
+    font-family: Montserrat-Regular;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    height: 40px
+}
+
+.header-promo__find-button {
+    background-color: #ff4e50;
+    border-radius: 40px;
+    line-height: 40px
+}
+
+.header-promo__find-button:hover {
+    border: 2px solid #ff4e50;
+    box-sizing: border-box;
+    background-color: transparent;
+    border-radius: 40px;
+    line-height: 36px
+}
+
+.steps {
+    padding-top: 28px;
+    height: 420px
+}
+
+.steps__block {
+    margin: 8px
+}
+
+.steps__item {
+    width: 31%;
+    margin: 9px;
+    vertical-align: top;
+    float: left;
+    display: block
+}
+
+.steps__item__description {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 260px
+}
+
+.steps__item__description__number, .steps__item__description__number:hover {
+    letter-spacing: 2px;
+    font-family: Montserrat-Bold;
+    font-size: 10px;
+    font-weight: 400;
+    text-align: center;
+    width: 70px;
+    height: 20px;
+    color: #fff;
+    margin-bottom: 10px
+}
+
+.steps__item__description__number {
+    border: none;
+    background-color: #ff4e50;
+    border-radius: 20px;
+    line-height: 20px
+}
+
+.steps__item__description__number:hover {
+    border: 2px solid #fff;
+    background-color: transparent;
+    border-radius: 20px;
+    line-height: 1pc
+}
+
+.steps__item__description__head {
+    font-family: Montserrat-Regular;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    line-height: 30px;
+    margin-bottom: 10px
+}
+
+.steps__item__description__info {
+    vertical-align: bottom;
+    font-family: Roboto-Light;
+    color: #ccc;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+    line-height: 17px
+}
+
+.partner {
+    padding-top: 86px;
+    padding-bottom: 19px
+}
+
+.partner__partners {
+    padding-top: 15px;
+    text-align: center;
+    width: 25%;
+    display: block;
+    float: left;
+    vertical-align: top
+}
+
+.partner__partners__photo__logo-bottle, .partner__partners__photo__logo-plane {
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #fff;
+    width: 33px
+}
+
+.partner__partners__photo {
+    position: relative
+}
+
+.partner__partners__photo__logo-plane {
+    background-color: #4e73db;
+    height: 2pc;
+    line-height: 40px;
+    text-align: center;
+    position: absolute;
+    bottom: -2px;
+    right: 55px
+}
+
+.partner__partners__photo__logo-bottle {
+    background-color: #ffa507;
+    height: 2pc;
+    line-height: 40px;
+    text-align: center;
+    position: absolute;
+    bottom: -2px;
+    right: 55px
+}
+
+.partner__partners__photo__logo-cup, .partner__partners__photo__logo-tv {
+    border-radius: 50%;
+    border-width: 4px;
+    border-color: #fff;
+    width: 2pc;
+    height: 2pc;
+    line-height: 40px;
+    position: absolute;
+    bottom: -2px;
+    right: 55px;
+    text-align: center;
+    border-style: solid
+}
+
+.partner__partners__photo__logo-cup {
+    background-color: #1cd7ad
+}
+
+.partner__partners__photo__logo-tv {
+    background-color: #ff4e50
+}
+
+.partner__partners__name {
+    width: 215px;
+    padding-top: 17px;
+    font-family: Montserrat-regular;
+    color: #333;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    -webkit-transform: scaleX(1.0011);
+    transform: scaleX(1.0011)
+}
+
+.partner__partners__information {
+    width: 215px;
+    line-height: 17px;
+    padding-top: 14px;
+    font-family: Roboto-Light;
+    color: #666;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center
+}
+
+.interests, .interests__input {
+    font-family: Roboto-light;
+    font-weight: 300
+}
+
+.interests {
+    color: #333;
+    font-size: 18px;
+    text-align: center;
+    margin: 34px auto 40px
+}
+
+.interests__input {
+    outline: 0;
+    margin-left: 28.5%;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ccc;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 0 1px 0 0 #eee;
+    width: 15pc;
+    height: 40px;
+    color: #999;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 15px
+}
+
+.interests__find, .interests__find:hover {
+    margin-bottom: 75pt;
+    width: 10pc;
+    height: 40px;
+    font-family: Montserrat-regular;
+    font-size: 14px;
+    text-align: center;
+    margin-left: 6px;
+    font-weight: 700
+}
+
+.interests__find {
+    background-color: #ff4e50;
+    color: #fff;
+    border: none;
+    border-radius: 40px
+}
+
+.interests__find:hover {
+    background-color: transparent;
+    color: #ff4e50;
+    border: 2px solid #ff4e50;
+    border-radius: 40px
+}
+
+.activity-ideas {
+    min-height: 980px;
+    display: block
+}
+
+.ideas {
+    margin-top: 26px;
+    min-height: 980px
+}
+
+.ideas__kinds-big {
+    float: left;
+    margin: 10px;
+    position: relative
+}
+
+.ideas__kinds-big__text, .ideas__kinds__text {
+    height: 310px;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    top: 45%;
+    font-family: Montserrat-Regular;
+    color: #fff;
+    font-size: 22px
+}
+
+.ideas__kinds-big__text {
+    width: relative;
+    font-weight: 700
+}
+
+.ideas__kinds {
+    float: left;
+    margin: 10px;
+    position: relative
+}
+
+.ideas__kinds__text {
+    width: 300px;
+    font-weight: 700
+}
+
+.others, .others:hover {
+    margin-left: 40%;
+    margin-top: 54px;
+    box-sizing: border-box;
+    width: 2in;
+    height: 40px;
+    font-family: Montserrat-regular;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 40px
+}
+
+.works {
+    padding-top: 97px
+}
+
+.others {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ff4e50;
+    background-color: #fff;
+    color: #ff4e50
+}
+
+.others:hover {
+    background-color: #ff4e50;
+    color: #fff
+}
+
+.discover {
+    margin-top: 98px
+}
+
+.discover__bottom {
+    margin-top: 75pt
+}

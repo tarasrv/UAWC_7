@@ -1,0 +1,76 @@
+.footer {
+  border-top: 4px solid #ff4e50;
+  padding-top: 40px;
+  &__logo {
+    margin-left: 9px;
+    vertical-align: top;
+    letter-spacing: 0.8px;
+    display: inline;
+    font-family: Montserrat-regular, sans-serif;
+    color: #ff4e50;
+    font-size: 16px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: center;
+  }
+  &__partners {
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 87px;
+    font-family: Montserrat-regular, sans-serif;
+    color: #333333;
+    font-size: 14px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: left;
+  }
+  &__nav {
+    display: inline-block;
+    margin-left: 94px;
+  }
+  &__points {
+    font-family: Roboto-light, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    height: 25px;
+    &__href {
+      font-family: Roboto-light, sans-serif;
+      font-size: 14px;
+      font-weight: 300;
+      color: #666666;
+    }
+    &__href:hover {
+      font-family: Roboto-light, sans-serif;
+      font-size: 14px;
+      font-weight: 300;
+      color: #666666;
+      text-decoration: underline;
+    }
+    &__title {
+      font-family: Montserrat-regular, sans-serif;
+      color: #333333;
+      font-size: 14px;
+      font-weight: 700;
+      text-align: left;
+      margin-bottom: 8px;
+      &__href {
+        color: #333333;
+      }
+    }
+  }
+  &__designed {
+    letter-spacing: 1px;
+    vertical-align: top;
+    display: inline-block;
+    font-family: Montserrat-regular, sans-serif;
+    color: #cccccc;
+    font-size: 10px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: right;
+    float: right;
+    &__areto-logo {
+      float: right;
+      margin-top: 5px;
+      margin-right: 10px;
+    }
+  }
+}
+

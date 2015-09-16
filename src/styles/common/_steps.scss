@@ -1,0 +1,78 @@
+.steps {
+  padding-top: 28px;
+  height: 420px;
+  &__block {
+    display: inline-block;
+    margin: 8px;
+  }
+  &__item {
+    width: 31%;
+    margin: 9px;
+    position: relative;;
+    vertical-align: top;
+    float: left;
+    display: block;
+
+    &__picture {
+      position: relative;
+
+    }
+    &__description {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      width: 260px;
+      &__number {
+        border: none;
+        letter-spacing: 2px;
+        font-family: Montserrat-Bold, sans-serif;
+        color: #ffffff;
+        font-size: 10px;
+        font-weight: 400;
+        text-align: center;
+        background-color: #ff4e50;
+        width: 70px;
+        height: 20px;
+        border-radius: 20px;
+        line-height: 20px;
+        margin-bottom: 10px;
+      }
+      &__number:hover {
+        border: 2px solid #ffffff;
+        letter-spacing: 2px;
+        font-family: Montserrat-Bold, sans-serif;
+        color: #ffffff;
+        font-size: 10px;
+        font-weight: 400;
+        text-align: center;
+        background-color: transparent;
+        width: 70px;
+        height: 20px;
+        border-radius: 20px;
+        line-height: 16px;
+        margin-bottom: 10px;
+      }
+      &__head {
+        font-family: Montserrat-Regular, sans-serif;
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 700;
+        text-align: left;
+        line-height: 30px;
+        margin-bottom: 10px;
+      }
+      &__info {
+        vertical-align: bottom;
+        font-family: Roboto-Light, sans-serif;
+        color: #cccccc;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: left;
+        line-height: 17px;
+      }
+    }
+  }
+  &__item:last-child {
+    padding-right: 0;
+  }
+}
